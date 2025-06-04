@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-  <p>اضغط الزر ادناه:</p>
+  <p>ااضغط الزر ادناة</p>
   <a href="myfile.exe" download>اضغط هنا</a>
 </body>
 </html>
