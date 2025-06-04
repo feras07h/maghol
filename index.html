@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IP Checker</title>
+</head>
+<body>
+  <h1>جارٍ التحقق من عنوان IP الخاص بك...</h1>
+  <p id="ip"></p>
+
+  <script>
+    fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('ip').textContent = "عنوان IP الخاص بك هو: " + data.ip;
+      });
+  </script>
+</body>
+</html>
