@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>مرحبًا!</h1>
-  <p>اضغط الزر لتحميل الملف:</p>
-  <a href="myfile.exe" download>تحميل الملف</a>
+  <p>اضغط الزر ادناه:</p>
+  <a href="myfile.exe" download>اضغط هنا</a>
 </body>
 </html>
